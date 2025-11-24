@@ -132,7 +132,7 @@ if __name__ == "__main__":
 	# Parse arguments
 	parser = argparse.ArgumentParser(description="Denoise a sequence with FastDVDnet")
 	parser.add_argument("--model_file", type=str,\
-						default="./model.pth", \
+						default="/content/video_denoiser/model.pth", \
 						help='path to model of the pretrained denoiser')
 	parser.add_argument("--test_path", type=str, default="./data/rgb/Kodak24", \
 						help='path to sequence to denoise')
